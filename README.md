@@ -21,23 +21,23 @@
 
 Model     | F1- macro Score
 -----     | -----
-semi-crf    | 15%
+semi-crf (baseline)    | 15%
 -----     | -----
 BERT         |  39%
 -----     | -----
-BiLSTM CRF GLOVE  | 32.2%
+BiLSTM CRF + GLOVE Embeddings  | 32.2%
 -----     | -----
-BiLSTM CRF Character | 37.1%
+BiLSTM CRF + Character Embeddings | 37.1%
 -----     | -----
-BILSTM CRF char+GLOVE | 38.2%
+BILSTM CRF char+GLOVE Embeddings | 38.2%
 -----     | -----
-BILSTM CRF ELMO | 42.1%
+BILSTM CRF +  ELMO Embeddings  | 42.1%
 -----     | -----
-BILSTM CRF BERT | 43.8%
+BILSTM CRF + BERT Embeddigns | 43.8%
 -----     | -----
-BILSTM CRF RoBERTA | 43.2%
+BILSTM CRF + RoBERTa  Embeddings| 43.2%
 -----     | -----
-#BILSTM CRF flairs | 47%
+#BILSTM CRF + flairs Embeddings | 47%
 -----     | -----
 # Rankings
 Task1: 29/55
