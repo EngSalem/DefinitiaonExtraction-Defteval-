@@ -38,7 +38,7 @@ BILSTM CRF BERT | 43.8%
 BILSTM CRF RoBERTA | 43.2%
 -----     | -----
 # BILSTM CRF flairs | 47%
-
+-----     | -----
 # Rankings
 Task1: 29/55
 Task2: 33/55
