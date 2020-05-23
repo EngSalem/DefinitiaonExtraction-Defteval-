@@ -20,23 +20,23 @@
 # Results (currently Subtask2):
 
 Model     | F1- macro Score
------     | -----
+
 semi-crf    | 15%
------     | -----
+
 BERT         |  39%
------     | -----
+
 BiLSTM CRF GLOVE  | 32.2%
------     | -----
+
 BiLSTM CRF Character | 37.1%
------     | -----
+
 BILSTM CRF char+GLOVE | 38.2%
------     | -----
+
 BILSTM CRF ELMO | 42.1%
------     | -----
+
 BILSTM CRF BERT | 43.8%
------     | -----
+
 BILSTM CRF RoBERTA | 43.2%
------     | -----
+
 # BILSTM CRF flairs | 47%
 
 # Rankings
